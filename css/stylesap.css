@@ -1,0 +1,39 @@
+#loading
+{
+	width: 250px;
+	float: none;
+}
+#content
+{
+	width: 990px;
+	float: none;
+}
+#navig
+{
+	float: none;
+	width: 990px;
+	text-align: center;
+}
+#pages
+{
+	float: none;
+}
+.curpage
+{
+	background: #B6CFE1;
+}
+#pag LI
+{
+	list-style: none;
+	float: left;
+	margin-right: 16px;
+	padding: 3px;
+	border: 1px solid #DDDDDD;
+	color: #003B84;
+	line-height:14px;
+}
+#pag LI:hover
+{
+	color: #FD5006;
+	cursor: pointer;
+}

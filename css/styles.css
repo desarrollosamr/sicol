@@ -1,0 +1,9 @@
+#contenu {
+	width:680px;
+	margin:6px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background:white;
+	height: 520px;
+}
+
+.clear{clear:both;}
