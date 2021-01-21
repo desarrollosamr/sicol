@@ -50,7 +50,7 @@ $progmezclas = $resultadoprogmezclas->fetch_object();
                  ?>
                     <option value="<?php echo $producto->productosId?>"><?php echo $producto->nombre?></option>                
             <?php 
-				 }
+		 }
               }		//cierra el Mientras  
             ?>          
         </select>

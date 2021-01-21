@@ -22,7 +22,7 @@ $result_pag_data = mysqli_query($objConexion,$query_pag_data) or die('MySql Erro
 $nuba="select distinct bache as bache from gc_tmpbaches where orden like '$progid'";
 $rnuba=mysqli_query($objConexion,$nuba) or die('MySql Error' . mysql_error());
 
-&ntba="select count(distinct bache) as ntbaches from gc_tmpbaches where orden like '$progid'";
+$ntba="select count(distinct bache) as ntbaches from gc_tmpbaches where orden like '$progid'";
 $rntba=mysqli_query($objConexion,$ntba) or die('MySql Error' . mysql_error());
 $nutoba=mysqli_fetch_array($rntba);
 $ntbaches=$nutoba['ntbaches'];

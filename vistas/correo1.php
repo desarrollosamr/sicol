@@ -1,5 +1,4 @@
 <?php
-<?php
 
 include '../pear/Mail.php';
 include '../Mail/mime.php' ;
